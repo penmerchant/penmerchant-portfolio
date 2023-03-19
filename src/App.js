@@ -2,8 +2,7 @@ import Navbar from "./components/Layout";
 
 function App() {
   return (
-    <Navbar>
-    </Navbar>
+    <Navbar />
   );
 }
 
