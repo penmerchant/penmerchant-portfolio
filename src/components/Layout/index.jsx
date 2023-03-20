@@ -33,7 +33,7 @@ const Navbar = () => {
     };
 
     const iconStyle = {color: '#fff', width: '30px', height: '30px'};
-    return <>
+    return <div>
     <Header>
         <DesktopWrapper>
             <ListElem>Home</ListElem>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </DropdownItem> 
             })}
         </Dropdown>}
-    </>
+    </div>
 };
 
 const Header = styled.div` ${tw`flex left-0 h-14 w-full bg-[#222e2e] top-0 place-content-end h-[80px]`}`;
