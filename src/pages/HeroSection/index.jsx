@@ -19,7 +19,7 @@ const HeroContainer = tw.div`h-screen w-full bg-[#40222d] grid place-content-cen
     max-[600px]:grid-cols-1
     max-[600px]:bg-auto`;
 const InfoWrapper = tw.div`h-auto w-auto text-white opacity-80 bg-[#40222d] font-['Stay pixel']`;
-const HeadingName = tw.h2`leading-relaxed p-4 text-6xl`;
-const ParagraphInfo = tw.p`leading-relaxed p-4 text-lg`;
+const HeadingName = tw.h2`leading-relaxed text-6xl`;
+const ParagraphInfo = tw.p`leading-relaxed text-lg`;
 const Button = tw.button`h-[50px] w-full bg-[#CC6840] text-lg text-white outline-0 border-0 hover:bg-[#a35333] font-['Stay pixel']`;
 export default HeroSection;
