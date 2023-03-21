@@ -8,5 +8,7 @@ This is proof of my work.
 
 ## Tech
 * Client - React
+* CSS framework - tailwind css
+* SMTP api - emailjs
 
 ## How to set up locally
