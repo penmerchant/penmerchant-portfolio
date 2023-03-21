@@ -1,4 +1,4 @@
-import tw, {styled} from "twin.macro";
+import tw from "twin.macro";
 import {FaBars} from "react-icons/fa"
 import {FaTimes} from "react-icons/fa";
 import { useState } from "react";
@@ -64,7 +64,7 @@ const Navbar = () => {
     </div>
 };
 
-const Header = styled.div` ${tw`flex left-0 h-14 w-full bg-[#222e2e]  place-content-end h-[80px] z-[100] fixed`}`;
+const Header = tw.div`flex left-0 h-14 w-full bg-[#222e2e]  place-content-end h-[80px] z-[100] fixed`;
 const DesktopWrapper = tw.ul`flex gap-2 items-center place-items-end pr-4 max-[570px]:hidden`; 
 const ListElem = tw.li`list-none text-white hover:text-[#CC6840] cursor-pointer`;
 const Mobile = tw.div`lg:hidden max-[1268px]:hidden max-[570px]:flex items-center`;
