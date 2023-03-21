@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Layout";
 import AboutSection from "./pages/About";
 import HeroSection from "./pages/HeroSection";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <Projects />
+      <Footer />
     </>
   );
 }
