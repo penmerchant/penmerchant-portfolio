@@ -7,7 +7,7 @@ const HeroSection = () => {
         // console.log('clicked');
     };
 
-    return <HeroContainer style={style}>
+    return <HeroContainer id="/" style={style}>
         <InfoWrapper>
             <HeadingName>AFFIFUDDIN BIN KHASNIN</HeadingName>
             <ParagraphInfo>A very enthusiastic software developer</ParagraphInfo>

@@ -11,7 +11,7 @@ const Projects = () => {
         setProjects(data);
     },[]);
 
-    return <ProjectContainer>
+    return <ProjectContainer id="projects">
         <ProjectTitle>Projects</ProjectTitle>
         <ProjectGrid>
             {
@@ -48,7 +48,7 @@ const Projects = () => {
     </ProjectContainer>
 };
 const ProjectContainer = tw.div`h-screen bg-[#222e2e]`;
-const ProjectGrid = tw.div`grid grid-cols-2 w-full gap-1 max-[600px]:grid-cols-1`;
+const ProjectGrid = tw.div`grid grid-cols-2 w-full gap-2 max-[600px]:grid-cols-1`;
 const ProjectCard = tw.div`w-full h-auto my-10 bg-[#141b1b] rounded hover:cursor-pointer`; 
 const ProjectHeading = tw.h2`text-white`;
 const TopicsGrid = tw.div`grid grid-cols-4 gap-1 max-[600px]:grid-cols-2`;
@@ -56,6 +56,6 @@ const TopicsItem = tw.div`flex place-content-center items-center text-[#CC6840] 
 const ProjectTitle = tw.h1`text-white my-4`;
 const ProjectBold = tw.b`text-white font-bold`;
 const ProjectParagraph = tw.p`text-white`;
-const CardButton = tw.a`flex place-content-center no-underline gap-2 items-center h-[50px] w-full bg-[#CC6840] text-lg text-white outline-0 border-0 hover:bg-[#a35333]`;
+const CardButton = tw.a`flex place-content-center no-underline items-center h-[50px] w-full bg-[#CC6840] text-lg text-white outline-0 border-0 hover:bg-[#a35333]`;
 
 export default Projects;

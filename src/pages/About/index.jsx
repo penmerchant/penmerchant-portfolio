@@ -1,7 +1,7 @@
 import tw from "twin.macro";
 import Image from "../../assets/jobless.jpg";
 const AboutSection = () => {
-    return <AboutContainer>
+    return <AboutContainer id="about">
         <AboutGrid>
             <AboutInfo>
                 <AboutHeading>About me</AboutHeading>

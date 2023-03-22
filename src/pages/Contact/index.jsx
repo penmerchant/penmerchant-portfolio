@@ -23,7 +23,7 @@ const Contact = () => {
             });
     }
 
-    return <ContactContainer>
+    return <ContactContainer id="contact">
         <Heading>Contact me</Heading>
         <Wrapper>
             <form ref={formRef} onSubmit={sendEmail}>
