@@ -73,7 +73,7 @@ const Navbar = () => {
 
             { DropdownItems.map((item)=>{
                 return <DropdownItem>
-                    <Link activeClass="active" to={item.route} spy={true} smooth={true} offset={50} duration={500}>
+                    <Link activeClass="active" to={item.route} spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>
                         {item.name}
                     </Link>
                 </DropdownItem> 
