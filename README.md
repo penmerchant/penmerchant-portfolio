@@ -19,4 +19,16 @@ $ git clone repo_url
 ```
 
 ### Assigning values .env
-You need to have an  account to perform this step
+You need to have an [emailjs](https://www.emailjs.com/) account to perform this step.
+
+```env
+REACT_APP_SERVICE_ID= your service id
+REACT_APP_TEMPLATE_ID= your template id
+REACT_APP_PUBLIC_KEY= your public key
+```
+
+### Install dependencies and run the project
+Navigate to root directories of the project
+```shell
+$ npm install && npm start
+```
