@@ -1,7 +1,7 @@
 import tw from "twin.macro";
 import {FaBars} from "react-icons/fa"
 import {FaTimes} from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link} from "react-scroll";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -25,6 +25,7 @@ const Navbar = () => {
         },
     ];
 
+   
     const openMenu = () => {
         setToggle(true);
     };
