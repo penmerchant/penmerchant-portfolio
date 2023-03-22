@@ -12,3 +12,11 @@ This is proof of my work.
 * SMTP api - emailjs
 
 ## How to set up locally
+### Clone 
+Clone or fork the repo.
+```shell
+$ git clone repo_url
+```
+
+### Assigning values .env
+You need to have an  account to perform this step
