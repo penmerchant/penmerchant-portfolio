@@ -32,14 +32,14 @@ const Projects = () => {
                                 <ProjectBold > 
                                             Live demo
                                     </ProjectBold>
-                                <AiFillGithub />
+                                <BsBrowserChrome />
                             </CardButton>
                             <br></br>
                             <CardButton href={project.url}>
                                 <ProjectBold>
                                             Source code
                                 </ProjectBold>
-                                <BsBrowserChrome />
+                                <AiFillGithub />
                             </CardButton>
                     </ProjectCard>
                 })
