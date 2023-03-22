@@ -12,9 +12,9 @@ const AboutSection = () => {
     </AboutContainer>
 };
 const AboutContainer = tw.div`h-screen`;
-const AboutGrid = tw.div`grid grid-cols-2 gap-2 max-[800px]:grid-cols-1`;
+const AboutGrid = tw.div`grid grid-cols-2 my-8 gap-2 max-[800px]:grid-cols-1`;
 const AboutInfo = tw.div`w-full h-full`;
 const AboutHeading = tw.h2`leading-relaxed`; 
 const AboutParagraph = tw.p`leading-relaxed`;
-const ImageInfo = tw.img`w-full h-[550px] max-[800px]:h-full`; 
+const ImageInfo = tw.img`w-full h-[550px] max-[800px]:h-full rounded`; 
 export default AboutSection;

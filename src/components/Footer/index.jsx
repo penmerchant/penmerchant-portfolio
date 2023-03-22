@@ -8,7 +8,7 @@ const Footer = () => {
     </FooterSection>
 };
 
-const FooterSection = tw.div`h-[300px] w-full grid text-center place-content-center items-center bg-[#40222d]`;
+const FooterSection = tw.div`h-[150px] w-full grid text-center place-content-center items-center bg-[#40222d]`;
 const FooterFont = tw.b`text-white leading-relaxed`; 
 const Quotes = tw.i`text-white leading-relaxed`; 
 export default Footer;
